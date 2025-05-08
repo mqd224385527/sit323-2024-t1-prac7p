@@ -1,6 +1,6 @@
 first input npm init -y creaty necessary file    
 input npm install express mongodb dotenv to add mongodb  
-port-forward pod/mongo-686cd6cf7d-nvcx6 27017:27017 to open mobgodb in local and connect to mongodb compass   
+kubectl port-forward pod/mongo-686cd6cf7d-nvcx6 27017:27017 to open mobgodb in local and connect to mongodb compass   
 as for convenient I have added js file to combine test code    
 you can use node test-mongodb.js to test CURD   
 or you can follow the next step    
